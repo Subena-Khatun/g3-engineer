@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* global css use or re-use css use */
+body{
+    font-family: 'Work Sans';
+
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+/* header section css */
+header{
+    padding: 50px 0px;
+    background: rgba(255, 144, 14, 0.10);
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-content{
+    padding-bottom: 100px;
+}
+.header-logo{
+    color: var(--dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+}
+.banner-img{
+    width: 100%;
+}
+
+.header-manue ul li{
+    margin-left: 40px;   
+}
+.header-manue ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--dark-02, #424242);
+}
