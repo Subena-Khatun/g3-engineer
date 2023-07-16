@@ -8,15 +8,14 @@ body{
 
 }
 .container{
-    width: 1440px;
-    margin: 0 auto;
+    /* width: 1440px;
+    margin: 0 auto; */
 }
 ul li a{
     text-decoration: none;
 }
 ul li{
     list-style: none;
-    display: inline-block;
 }
 p{
     color: var(--dark-03, #727272);
@@ -37,10 +36,10 @@ p{
 }
 /* header section css */
 header{
-    padding: 50px 0px;
+    padding: 50px 240px;
     background: rgba(255, 144, 14, 0.10);
 }
-.header-content{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,8 +54,11 @@ header{
     font-size: 45px;
     font-weight: 700;
 }
+.header-manue ul{
+    display: flex;
+}
 .header-manue ul li{
-    margin-left: 40px;   
+    margin-left: 30px;   
 }
 .header-manue ul li a{
     font-size: 18px;
@@ -71,7 +73,7 @@ header{
 }
 .banner-title{
     color: var(--dark-01, #131313);
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 700;
 }
 .banner-description{
