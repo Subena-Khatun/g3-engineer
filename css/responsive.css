@@ -1,0 +1,10 @@
+@media (min-width: 640px) and (max-width: 768px){ 
+    .header-content{
+        display: block;
+        
+    }
+    .header-logo{
+        text-align: center;
+    }
+    
+ }                
