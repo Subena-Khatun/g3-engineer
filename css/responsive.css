@@ -1,10 +1,51 @@
 @media (max-width: 576px){ 
-    nav{
+    header,.container{
+        padding: 0px 20px;
+    }
+    nav, .our-team-setion{
         flex-direction: column;
-       }
+    }
+    .team-member-pic{
+        display: grid;
+       grid-template-columns: auto;
+        gap: 20px;
+    }
+    .team-text{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .team-title{
+        font-size: 1.5rem;
+        padding-top: 30px;
+    }
+    .btn-primary {
+        font-size: 1rem;
+        padding: 20px 24px;
+    }
+    .team-content{
+        text-align: center;
+    }
  } 
  @media (min-width: 576px)  and (max-width: 960px){
-    nav{
+    nav, .our-team-setion{
         flex-direction: column;
        }
+    .banner-content{
+        padding-top: 30px;
+    }
+    .team-content{
+        text-align: center;
+    }
+    .team-text{
+        width: 100%;
+        text-align: center;
+        padding: 24px 0px;
+    }
+    .team-title{
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 50px;
+    }
+    
  }               

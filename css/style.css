@@ -8,8 +8,10 @@ body{
 
 }
 .container{
-    /* width: 1440px;
+    /* max-width: 1440px;
     margin: 0 auto; */
+    padding-left: 240px;
+    padding-right: 240px; 
 }
 ul li a{
     text-decoration: none;
@@ -45,13 +47,11 @@ nav{
     align-items: center;
     
 }
-.header-content{
-    padding-bottom: 100px;
-}
+
 /* navbar css  */
 .header-logo{
     color: var(--dark-01, #131313);
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
 }
 .header-manue ul{
@@ -70,6 +70,7 @@ nav{
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
+    padding-top: 100px;
 }
 .banner-title{
     color: var(--dark-01, #131313);
@@ -83,4 +84,38 @@ nav{
     width: 100%;
     margin-top: 50px;
 }
-
+/* our-team-setion css */
+.our-team-setion{
+    padding: 85px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.team-member-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.team-member-pic img{
+    width: 342px;
+}
+.team-content{
+    /* padding-left: 76px; */
+}
+.team-title{
+    color: var(--dark-01, #131313);
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform:initial;
+}
+.quick-text{
+    color: var(--dark-03, #727272);
+}
+.fetaures-text-team{
+    color: #FF900E;
+}
+.team-text{
+    text-align: left;
+    max-width: 530px;
+    padding: 24px 0px;
+}
