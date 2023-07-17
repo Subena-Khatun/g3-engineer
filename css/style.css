@@ -41,7 +41,7 @@ header{
     padding: 50px 240px;
     background: rgba(255, 144, 14, 0.10);
 }
-nav, .features-area{
+nav, .features-area, .reward-card{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -185,3 +185,35 @@ nav, .features-area{
     font-weight: 500;
     padding-top: 10px;
 } 
+/* reward css start */
+.reward-card{
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 0px;
+}
+.rewars-title{
+    border: none;
+    padding: 0px;
+}
+.rewars-description{
+    text-align: left;
+    width: 542px;
+}
+.card-item{
+    border: 1px solid #FF900E;
+    padding: 50px;
+}
+.card-item img{}
+.card-item h3{
+    color: var(--dark-02, #424242);
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 5px 0px;
+
+}
+
+.card-item h4{
+    color: var(--dark-03, #727272);
+    font-size: 20px;
+    font-weight: 600;
+}
