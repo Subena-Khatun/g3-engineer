@@ -48,6 +48,18 @@
     .rewars-description {
         width: 100%;
     }
+    .sponsor-reqard{
+        display: grid;
+        grid-template-columns: repeat(1, 150px);
+        gap: 50px;
+    }
+    .footer-area{
+        padding: 40px 50px;
+       
+    }
+    .features-area {
+        padding: 20px;
+    }
  } 
  @media (min-width: 576px)  and (max-width: 960px){
     nav, .our-team-setion, .features-area{
@@ -91,5 +103,10 @@
     .reward-card{
         grid-template-columns: repeat(2, 250px);
         gap: 20px;
+    }
+    .sponsor-reqard{
+        display: grid;
+        grid-template-columns: repeat(1, 150px);
+        gap: 50px;
     }
  }               

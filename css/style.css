@@ -220,3 +220,43 @@ nav, .features-area{
     font-size: 20px;
     font-weight: 600;
 }
+/* sposnor css */
+.sponsor-area{
+    padding: 70px 0px;
+}
+.sponsor-top-content{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sponsor-title{
+    border: none;
+    padding: 0px;
+}
+.sponsor-description{
+    max-width: 580px;
+    margin: 0 auto;
+   
+}
+
+.sponsor-reqard{
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    justify-content: space-around;
+}
+
+/* footer css */
+footer{
+    padding: 60px 0px;
+}
+.footer-area{
+    background: #FFF4E7;
+    padding: 20px 0px;
+   
+}
+.footer-des{
+    text-align: center;
+    color: var(--dark-02, #424242);
+
+    font-size: 20px;
+    font-weight: 400;
+}
