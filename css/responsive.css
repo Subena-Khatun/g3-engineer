@@ -2,7 +2,7 @@
     header,.container{
         padding: 0px 20px;
     }
-    nav, .our-team-setion{
+    nav, .our-team-setion, .features-area{
         flex-direction: column;
     }
     .team-member-pic{
@@ -26,9 +26,21 @@
     .team-content{
         text-align: center;
     }
+    .fetures-imag img{
+        width: 100%;
+    }
+    .warrnty {
+        padding: 30px 15px;
+        bottom: 100px;
+        right: 0px;
+    }
+    .fetures-content {
+        width: 100%;
+        margin-right: 0px;
+    }
  } 
  @media (min-width: 576px)  and (max-width: 960px){
-    nav, .our-team-setion{
+    nav, .our-team-setion, .features-area{
         flex-direction: column;
        }
     .banner-content{
@@ -47,5 +59,20 @@
         font-size: 2rem;
         padding-top: 50px;
     }
-    
+    .features-area{
+        padding: 50px;
+        
+    }
+    .fetures-content {
+        max-width: 100%;
+        margin-right: 0px;
+    }
+    .fetures-imag img{
+        width: 100%;
+    }
+    .warrnty {
+        padding: 30px 15px;
+        bottom: 100px;
+        right: 0px;
+    }
  }               
