@@ -50,7 +50,7 @@
     }
     .sponsor-reqard{
         display: grid;
-        grid-template-columns: repeat(1, 150px);
+        grid-template-columns: repeat(1, 100px);
         gap: 50px;
     }
     .footer-area{
