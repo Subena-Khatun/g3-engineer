@@ -38,7 +38,7 @@ p{
 }
 /* header section css */
 header{
-    padding: 50px 240px;
+    padding: 50px 100px;
     background: rgba(255, 144, 14, 0.10);
 }
 nav, .features-area{
