@@ -41,7 +41,7 @@ header{
     padding: 50px 240px;
     background: rgba(255, 144, 14, 0.10);
 }
-nav, .features-area, .reward-card{
+nav, .features-area{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -186,7 +186,10 @@ nav, .features-area, .reward-card{
     padding-top: 10px;
 } 
 /* reward css start */
+.reward-card{}
 .reward-card{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
     justify-content: space-around;
     text-align: center;
     padding: 50px 0px;

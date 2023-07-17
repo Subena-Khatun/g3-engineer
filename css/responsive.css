@@ -38,6 +38,16 @@
         width: 100%;
         margin-right: 0px;
     }
+    .reward-area{
+        padding: 50px;
+    }
+    .reward-card{
+        grid-template-columns: repeat(2, 220px);
+        gap: 20px;
+    }
+    .rewars-description {
+        width: 100%;
+    }
  } 
  @media (min-width: 576px)  and (max-width: 960px){
     nav, .our-team-setion, .features-area{
@@ -74,5 +84,12 @@
         padding: 30px 15px;
         bottom: 100px;
         right: 0px;
+    }
+    .reward-area{
+        padding: 50px;
+    }
+    .reward-card{
+        grid-template-columns: repeat(2, 250px);
+        gap: 20px;
     }
  }               
