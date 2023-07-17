@@ -8,10 +8,10 @@ body{
 
 }
 .container{
-    /* max-width: 1440px;
-    margin: 0 auto; */
-    padding-left: 240px;
-    padding-right: 240px; 
+    max-width: 1170px;
+    margin: 0 auto;
+    /* padding-left: 240px;
+    padding-right: 240px;  */
 }
 ul li a{
     text-decoration: none;
@@ -97,10 +97,11 @@ nav, .features-area{
     gap: 20px;
 }
 .team-member-pic img{
-    width: 342px;
+    /* width: 342px; */^
+    width: 100%;
 }
 .team-content{
-    /* padding-left: 76px; */
+    padding-left: 76px;
 }
 .team-title{
     color: var(--dark-01, #131313);
@@ -120,8 +121,12 @@ nav, .features-area{
     padding: 24px 0px;
 }
 /* features css start */
+.features-area{
+    
+}
 .fetures-content{
-    max-width: 580px;
+    max-width: 558px;
+    margin-right: 100px
 }
 .fetures-content p{
     text-align: left;
@@ -137,15 +142,15 @@ nav, .features-area{
     font-size: 3rem;
     font-weight: 700;
     padding-left: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border-left: 5px solid #FF900E;;
 }
 .features-top{
-    padding: 30px 0px;
+    padding: 20px 0px;
 }
 .fetures-iteam{
-    padding: 30px;
-    margin-bottom: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
     border-radius: 8px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
@@ -155,17 +160,18 @@ nav, .features-area{
     font-weight: 600;
 }
 .fetures-imag img{
-    height: 982px;
+    /* height: 982px; */
     width: 100%;
+    /* margin-left: 120px */
 }
 .warrnty{
     border-radius: 8px;
     background: #FF900E;
-    width: 342px;
-    padding: 46px 40px;
+    width: 266px;
+    padding: 34px 25px;
     position: relative;
-    bottom: 100px;
-    right: 100px;
+    bottom: 120px;
+    right: 50px;
 }
 .warrnty h3{
     color: #FFF;
